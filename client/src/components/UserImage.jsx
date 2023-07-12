@@ -9,7 +9,7 @@ const UserImage = ({ image, size = '60px' }) => {
         width={size}
         height={size}
         alt='user'
-        src={`https://amebosocials-api.onrender.com/assets/${image}`}
+        src={`https://amebosocials-api.onrender.com/${image}`}
       />
     </Box>
   );
